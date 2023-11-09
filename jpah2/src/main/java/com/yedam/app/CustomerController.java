@@ -19,7 +19,7 @@ public class CustomerController {
 	public ModelAndView main() {
 		// Model + View 객체
 		ModelAndView mv = new ModelAndView("home");
-		mv.addObject("greet","안녕하세요");
+		mv.addObject("greet","<b>안녕</b>하세요");
 		return mv;
 	}
 	
